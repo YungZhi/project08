@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>選貨店</title>
+
+    <!-- Boostrap5.0連結 -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+
+    <!-- css連結 -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 2導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <div class="container-fluid">
+            <!-- 品牌logo -->
+            <a class="navbar-brand" href="index.html"><img width="160px" height="50px" src="images/woobuy03.png"></a>
+
+            <!-- 第一部份：手機版 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- 第二部份：桌上型電腦版 -->
+
+            <div class="collapse navbar-collapse" id="linkbar">
+                <!-- 列出內容 -->
+                <ul class="navbar-nav me-auto">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">商品分類</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="mouse.html">滑鼠|無線</a></li>
+                            <li><a class="dropdown-item" href="keybord.html">鍵盤|機械式鍵盤|客製化鍵盤</a></li>
+                            <li><a class="dropdown-item" href="headphone.html">耳機|入耳式|耳罩式</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="brand.html">品牌館</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="start.html">明星專區</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#feature">商品特色</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">主打商品</a>
+                    </li>
+
+                </ul>
+                <!-- 列出到右邊 -->
+
+                <!-- <form style="width:300px;" class="input-group">
+                    <input class="form-control me-3" type="search" placeholder="搜尋">
+                    <button class="btn btn-success" type="submit">搜尋</button>
+
+                </form> -->
+                <!-- 會員系統 start -->
+                <ul class="list-unstyled list-inline ms-1 mt-2 shop-menu">
+                    <li class="list-inline-item"><a href="member.html">會員系統</a></li>
+                </ul>
+                <!-- 會員系統 end -->
+
+                <!-- 購物車 start -->
+                <ul class="list-unstyled list-inline ms-1 mt-2 shop-menu">
+                    <li class="list-inline-item"><a href="cart.html">購物車</a></li>
+                </ul>
+
+                <!-- 購物車 end -->
+
+                <!-- 登入選單 start -->
+
+                <ul class="list-unstyled list-inline ms-1 mt-2  shop-menu">
+                    <li class="list-inline-item"><a href="login.html">登入</a></li>
+                </ul>
+
+                <!-- 登入選單 end -->
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- 購物車/start -->
+    <section class="page-content">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <!-- 產品清單/start -->
+                <div class="mb-3">
+                    <h2 class="mb-3">購物車</h2>
+                    <div class="table-responsive-sm">
+                        <table class="table table-bordered align-middle">
+                            <thead class="table-dark fs-5">
+                                <tr>
+                                    <th scope="col" class="product-remove">&nbsp;</th>
+                                    <th scope="col" class="product-thumbnail">圖片</th>
+                                    <th scope="col" class="product-name">名稱</th>
+                                    <th scope="col" class="product-price">價格</th>
+                                    <th scope="col" class="product-quantity">數量</th>
+                                    <th scope="col" class="product-subtotal">總計</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="product-remove">
+                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="移除此商品"
+                                            class="remove text-white">X</a>
+                                    </td>
+                                    <td class="product-thumbnail">
+                                        <a href="product_mouse_gpro.html">
+                                            <img src="images/gpro 05.png" alt="gpro" class="img-fluid">
+                                        </a>
+                                    </td>
+                                    <td class="product-name">
+                                        <a href="product_mouse_gpro.html">gpro x superlight</a>
+                                    </td>
+                                    <td class="product-price">NT$&nbsp;4490</td>
+                                    <td class="product-quantity">
+                                        <input type="number" value="1">
+                                    </td>
+                                    <td class="product-subtotal">NT$&nbsp;4490</td>
+                                </tr>
+                                <tr>
+                                    <td class="product-remove">
+                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="移除此商品"
+                                            class="remove text-white">X</a>
+                                    </td>
+                                    <td class="product-thumbnail">
+                                        <a href="product_keybord_apexpro.html">
+                                            <img src="images/apex pro.png" alt="apex pro" class="img-fluid">
+                                        </a>
+                                    </td>
+                                    <td class="product-name">
+                                        <a href="product_keybord_apexpro.html">Apex pro tkl 2023</a>
+                                    </td>
+                                    <td class="product-price">NT$&nbsp;7990</td>
+                                    <td class="product-quantity">
+                                        <input type="number" value="1">
+                                    </td>
+                                    <td class="product-subtotal">NT$&nbsp;7990</td>
+                                </tr>
+                                <tr>
+                                    <td class="product-remove">
+                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="移除此商品"
+                                            class="remove text-white">X</a>
+                                    </td>
+                                    <td class="product-thumbnail">
+                                        <a href="product_head_gprox2.html">
+                                            <img src="images/prox2 03.png" alt="Gpro" class="img-fluid">
+                                        </a>
+                                    </td>
+                                    <td class="product-name">
+                                        <a href="product_head_gprox2.html">PRO X 2 LIGHTSPEED</a>
+                                    </td>
+                                    <td class="product-price">NT$&nbsp;7990</td>
+                                    <td class="product-quantity">
+                                        <input type="number" value="1">
+                                    </td>
+                                    <td class="product-subtotal">NT$&nbsp;7990</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- 產品清單/end -->
+                <!-- 感興趣產品/start -->
+                <div class="col-md-6 d-none d-md-block mb-5">
+                    <h2>您可能對此有興趣...</h2>
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <div class="card">
+                                <img src="images/blackshark 01.jpg" alt="blackshark" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="card-title">Razer BlackShark V2 Pro 2023</h4>
+                                    <p class="card-text">無線耳機麥克風。</p>
+                                    <h5 class="card-text text-danger">NT$&nbsp;6990</h5>
+                                    <div class="d-grid gap-2">
+                                        <a href="product_head_blackshark.html" class="btn btn-outline-secondary">查看商品</a>
+                                        <a href="cart.html" class="btn btn-outline-primary">加入購物車</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card">
+                                <img src="images/rog azoth 01.jpg" alt="TG-B-0001" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="card-title">ROG AZOTH 75%</h4>
+                                    <p class="card-text">可客製熱插拔預潤 ROG NX 機械式鍵軸。</p>
+                                    <h5 class="card-text text-danger">NT$&nbsp;7490</h5>
+                                    <div class="d-grid gap-2">
+                                        <a href="product_keybord_azoth.html" class="btn btn-outline-secondary">查看商品</a>
+                                        <a href="cart.html" class="btn btn-outline-primary">加入購物車</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 感興趣產品/end -->
+                <!-- 產品統計/start -->
+                <div class="col-md-6 mb-5">
+                    <h2>購物車統計</h2>
+                    <div class="table-reaponsive-sm">
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>小計</td>
+                                    <td>NT$&nbsp;20470</td>
+                                </tr>
+                                <tr class="bg-info">
+                                    <td>總計</td>
+                                    <td>NT$&nbsp;20470</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">
+                                        <a href="checkout.html" class="btn btn-outline-info btn-lg float-end">前往結帳</a>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <!-- 產品統計/end -->
+            </div>
+        </div>
+    </section>
+    <!-- 購物車/end -->
+
+<!-- 電子信箱 -->
+<section class="newsletter">
+    <div class="newletter1">
+
+        <p>歡迎訂閱選鍵店電子報，可不定期收到限定優惠</p>
+        <input type="email" placeholder="請輸入您的 Email" required>
+        <button type="submit">送出</button>
+
+    </div>
+
+</section>
+
+
+<!-- footer -->
+
+<footer>
+    <p>Copyright © 2023 選鍵店 All Rights Reserved.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

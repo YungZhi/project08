@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<body lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>選貨店</title>
+
+        <!-- Boostrap5.0連結 -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+            crossorigin="anonymous"></script>
+
+        <!-- css連結 -->
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- 2導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <div class="container-fluid">
+                <!-- 品牌logo -->
+                <a class="navbar-brand" href="index.html"><img width="160px" height="50px" src="images/woobuy03.png"></a>
+
+                <!-- 第一部份：手機版 -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- 第二部份：桌上型電腦版 -->
+
+                <div class="collapse navbar-collapse" id="linkbar">
+                    <!-- 列出內容 -->
+                    <ul class="navbar-nav me-auto">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">商品分類</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="mouse.html">滑鼠|無線</a></li>
+                                <li><a class="dropdown-item" href="keybord.html">鍵盤|機械式鍵盤|客製化鍵盤</a></li>
+                                <li><a class="dropdown-item" href="headphone.html">耳機|入耳式|耳罩式</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="brand.html">品牌館</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="start.html">明星專區</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feature">商品特色</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">主打商品</a>
+                        </li>
+
+                    </ul>
+                    <!-- 列出到右邊 -->
+
+                    <!-- <form style="width:300px;" class="input-group">
+                    <input class="form-control me-3" type="search" placeholder="搜尋">
+                    <button class="btn btn-success" type="submit">搜尋</button>
+
+                </form> -->
+                    <!-- 會員系統 start -->
+                    <ul class="list-unstyled list-inline ms-1 mt-2 shop-menu">
+                        <li class="list-inline-item"><a href="member.html">會員系統</a></li>
+                    </ul>
+                    <!-- 會員系統 end -->
+
+                    <!-- 購物車 start -->
+                    <ul class="list-unstyled list-inline ms-1 mt-2 shop-menu">
+                        <li class="list-inline-item"><a href="cart.html">購物車</a></li>
+                    </ul>
+
+                    <!-- 購物車 end -->
+
+                    <!-- 登入選單 start -->
+
+                    <ul class="list-unstyled list-inline ms-1 mt-2  shop-menu">
+                        <li class="list-inline-item"><a href="login.html">登入</a></li>
+                    </ul>
+
+                    <!-- 登入選單 end -->
+
+                </div>
+
+
+
+            </div>
+        </nav>
+
+        <!-- 3介紹卡 -->
+        <section class="page-content">
+            <div class="container mb-3">
+                <div class="container pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 mb-3">
+                            <div class="card">
+                                <img src="images/logitech logo02.png" alt="logitech" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="card-title">Logitech </h4>
+                                    <p class="card-text">
+                                        羅技是一家電腦周邊裝置和軟體製造商，總部位於瑞士洛桑，在歐洲、亞洲、大洋洲和美洲等一百多個國家或地區設有辦事處，是全球頂尖的個人電腦和其他3C產品輸入與介面裝置製造商之一。該公司開發與銷售用於個人電腦之視訊協同運作、音樂與智慧型家居等數位周邊裝置。
+                                    </p>
+                                    <div class="d-grid gap-2">
+                                        <a href="#" class="btn btn-outline-secondary">關於品牌</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 mb-3">
+                            <div class="card">
+                                <img src="images/rog logo03.png" alt="rog" class="card-img-top">
+                                <div class="card-body"><br>
+                                    <h4 class="card-title">Rog</h4>
+                                    <p class="card-text">
+                                        ROG，全球首屈一指的高端主機板品牌。為了令人振奮的極致效能，全球玩家不斷追尋頂尖的硬體裝備，華碩工程師中的一群精英也同樣熱衷於此，攜22年潛心研發之積，為超頻狂人和遊戲狂熱者們創建了Republic
+                                        of Gamers （ROG玩家國度）品牌，以滿足發燒友對極致性能和極致外觀的需求。
+                                    <div class="d-grid gap-2">
+                                        <a href="#" class="btn btn-outline-secondary">關於品牌</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 mb-3">
+                            <div class="card">
+                                <img src="images/razer logo09.png" alt="razerlogo" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="card-title">Razer</h4>
+                                    <p class="card-text">雷蛇（Razer Inc.；品牌標示書寫為RΛZΞR）是一家在新加坡創立的遊戲周邊裝置公司，又被戲稱為「綠光燈廠」，後開始進軍電子消費業務。雷蛇的兩個總部分別設立在新加坡及美國聖地牙哥。</p>
+                                    <div class="d-grid gap-2">
+                                      <br>
+                                        
+                                        <a href="#" class="btn btn-outline-secondary">關於品牌</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </div>
+
+        <!-- 電子信箱 -->
+    <section class="newsletter">
+        <div class="newletter1">
+
+            <p>歡迎訂閱選鍵店電子報，可不定期收到限定優惠</p>
+            <input type="email" placeholder="請輸入您的 Email" required>
+            <button type="submit">送出</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+
+    <footer>
+        <p>Copyright © 2023 選鍵店 All Rights Reserved.</p>
+    </footer>
+
+
+
+    </body>
